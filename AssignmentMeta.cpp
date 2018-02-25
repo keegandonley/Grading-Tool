@@ -40,8 +40,6 @@ std::string aMeta::getAName() {
 
 void aMeta::outPutFinishedMessage() {
     std::cout << initialMessage << std::endl;
-    std::cout << "URL: " << patternMatchURL() << std::endl;
-    std::cout << "Username: " << "a" + assignmentName << std::endl;
     std::cout << "Password: " << solutionPWD << std::endl;
 }
 
