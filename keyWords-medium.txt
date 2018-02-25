@@ -1,0 +1,24 @@
+initial 7 No initial file comment. [style convention 1a]
+break 1 You should not use a statement like "break" (except in a switch statement) to exit a loop. [Style convention 7c]
+decomp 10 Your functions must be broken down according to the diagram from the lesson. [Style convention 4]
+description 4 No initial file comment description [style convention 1a]
+6blank 1 6 blank lines must separate every function definition.
+document 9 No documentation was provided. [Style convention 1]
+functions 4 Your functions must have comments above each of them describing what the function does. This comment should explain the role of each parameter and refer to them by name, and be at least 50 words long for complex functions. [Style convention 1C]
+names 2 Your variable names shouldn’t use any abbreviations, and should clearly indicate their purpose by their name. Variable names should not be single letters. [style convention 3a]
+paste 2 Please paste the output in the bottom of all your files.
+repeated 2 Your submission has a lot of repeated code that can be simplified. [Style convention 6]
+values 2 Your values should be stored as global constants as per the assignment specification. No number other than 1 or 0 should usually show up in your program. [style convention 7a]
+global 10 Global variables should never be used in your program. [Style convention 7B]
+indent 1 The body of your functions, loops, and if statements should be indented exactly 4 spaces. [Style convention 5]
+order 2 Your code should start with function definitions, then the main function, and then your function implementations.
+lines 1 Lines should be less than 90 characters [Style convention 2A]
+stdafx 0 The statement '#include "stdafx.h"' causes your program to not compile
+double 1 Please do not double space your code as this makes it difficult to read.
+ifx 2 Your should never have if (x) {return true; } else {return false; } in your code. This can be replaced with return x;
+files 10 Your implementation, class definition, and client must be in separate files as per the assignment specification.
+noheader 5 No header file comment was provided.
+constname 0 The name of your constant shouldn't contain the value it represents.
+extra 0 +5 extra credit
+comparison 2 Comparisons in an if-statement need a double equal operator (==)
+space 1 Your operators, such as + / * << should be spaced out with a space in between them. [Style convention 2a]
