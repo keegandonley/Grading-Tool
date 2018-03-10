@@ -112,8 +112,10 @@ bool Student::addKeyWord(keyWord * keys, std::string enteredWord) {
 
 void Student::printComments() {
     std::cout << "Comments: " << std::endl;
-    for (std::vector<Comment *>::iterator it = allComments.begin(); it != allComments.end(); ++it)
+    for (std::vector<Comment *>::iterator it = allComments.begin(); it != allComments.end(); ++it) {
         (*it) -> printComment();
+		std::cout << std::endl;
+	}
 }
 
 void Student::writeStudentToFile(aMeta * meta) {
