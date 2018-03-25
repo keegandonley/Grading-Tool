@@ -1,4 +1,4 @@
-FLAGS= -ggdb -std=c++11 -Wall -Wextra
+FLAGS= -std=c++11 -Wall -Wextra
 
 all: Assignment.x listManager.x echoList.x
 
