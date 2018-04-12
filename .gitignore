@@ -11,3 +11,4 @@ Grade
 *.pdf
 *.obj
 *.exe
+.vscode/
