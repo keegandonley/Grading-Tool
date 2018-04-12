@@ -6,7 +6,7 @@
  * Author contact: kd@keegandonley.com
  * Author website: https://www.keegandonley.com
  *
- * This file contains the implementations of the AssignmentMeta class.
+ * This file contains the implementations of the aMeta class.
  * This class handles storing and managing metadata for each asignment. 
  * For example, the class name, assignment points, and solution information
  * among a few other things.
