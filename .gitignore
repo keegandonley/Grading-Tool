@@ -9,3 +9,5 @@ backups
 resources
 Grade
 *.pdf
+*.obj
+*.exe
