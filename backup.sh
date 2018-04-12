@@ -6,7 +6,7 @@ BACKUPSIZE=`du -s .backups | awk '{print $1}'`
 
 # Make sure the backups aren't too large
 echo ""
-if (( $BACKUPSIZE >= 100000 )); then
+if (( $BACKUPSIZE >= 1000000 )); then
     echo "Backup size is too large at $BACKUPSIZE bytes... Replacing old backups"
     while (( $BACKUPSIZE >= 100000 )); do
 
